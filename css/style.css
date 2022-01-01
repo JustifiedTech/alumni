@@ -1,0 +1,345 @@
+	/*@import url('https://fonts.googleapis.com/css?family=poppins:400,500,700');
+
+*/
+
+
+*{	
+	position: relative;
+	box-sizing:border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	height:100%;
+	width:100%;
+	font-family: "poppins", sans-serif,"Lato";
+	color: #222;
+	background-size: cover;
+}
+
+}
+header, nav, section, aside, footer, article { display: block;
+	
+}
+
+article {
+	border: 1px solid white;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+article footer {
+	text-align: right;
+}
+aside {
+	border: 1px solid #A09885;
+	padding: 10px;
+	margin-bottom: 15px;
+
+}
+.logo{
+	width:4rem; 
+	height:3rem; 
+	/*-webkit-animation: spin 5s linear infinite;*/
+}
+.login, .register{
+	 background: #000 url("../img/bg.png") no-repeat;
+        background-size: cover;
+}
+.welcome{
+	background:#fff url(../img/loginbg.png);
+        background-size: cover;
+        box-shadow: 0 6px 15px 0 #00001a;
+}
+
+.navbar{
+	padding: .8rem;
+	color: green;
+}
+#navbarResponsive li{
+	padding-right:1.2rem;
+	color:yellowgreen;
+}
+.nav-item:active
+		{
+			color: red;
+			background: white;
+			
+		}
+#navbarResponsive li a{
+	font-size:1.2rem !important;
+	font-weight:80%;
+	text-shadow: .5rem .5rem 3rem #d5d5d5;
+		}
+.carousel-inner img{
+	width:100%;
+	height:100%;
+}
+.carousel-caption{
+	position: absolute;
+	top: 40%
+	transform: translateY(40%)
+}
+.carousel-caption h3{
+	font-size: 200%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px #d5d5d5;
+	padding-bottom: 1rem;
+	
+}
+
+.carousel-caption h6{
+	font-size: 100%;
+	font-weight: 100%;
+	text-shadow: 1px 1px 15px #d5d5d5;
+	
+}
+.jumbotron{
+	padding: 1rem;
+	border-radius: 0;
+}
+.bg-unique{
+	background: #3f729b;
+}
+.bg-dash{
+	background-color:#024;
+}
+.padding{
+		padding-bottom: 2rem;
+		padding-top: 2em;
+}
+.display-4{
+			font-size:3rem; 
+			font-weight:300;
+			line-height:1.3; 
+}
+.display-5 {
+    font-size:2.5rem;
+    font-weight:200;
+    line-height:1.1;
+}
+
+.display-6 {
+    font-size:1.5rem;
+    font-weight:150;
+    line-height:.9;
+}
+.social a{
+	font-size: 4.0rem;
+	padding: 2rem;
+}
+.fa-facebook{
+		color:#3b5998;
+}
+.fa-twitter{
+		color: #00aced;
+}
+.fa-instagram{
+				color:#e91e63;
+}
+.fa-google-plus-g{
+			color: #dd4b39;
+}
+.fa-whatsapp{
+		color: #00c851;
+}
+.fa-youtube{
+			color:#bb0000;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-google-plus-g:hover,
+.fa-whatsapp:hover,
+.fa-youtube:hover{
+	color: #3f4f5f;
+}
+.carousel-item{
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+	-webkit-backface-visibilility: visible;
+	backface-visibility: visible;
+}
+
+
+
+	
+
+	.error{
+		width: 80%
+		margin:0px; auto;
+		padding:10px;
+		border: 1px solid #A94442;
+		color: #A94442;
+		background:#F2DEDE;
+		border-radius: 5px;
+		text-align: left;
+
+	}
+	
+	
+	
+	
+	#SocialMedia, { 
+		float: center;
+	}
+	#SocialMedia ul li{
+		float: left;
+		list-style: none;
+		padding-right: 10px;
+	}
+	#SocialMedia ul li img{
+		width: 50px;
+		height: 50px;
+		
+	}
+	
+
+	.main {
+    width: 20%;
+    margin-right:rem;
+		}
+
+/* Bootstrap 4 text input with search icon */
+
+
+
+
+}
+
+.clearfix:after, .clearfix:before, .nav:after{
+    content: "";
+    display: table;
+}
+.clearfix:after, .nav:after{
+    clear: both;
+}
+.fixed{
+    position: fixed;
+}
+.left{
+    float: left !important;
+}
+.right{
+    float: right !important;
+}
+.middle{
+	float: center !important;
+}
+
+
+.side-menu {
+    width: 20%;
+    max-width: 256px;
+    height:100%;
+    background: #024;
+}
+
+.contentSection.right.clearfix {
+    position:fixed;
+    width: 80%;
+    height:100%;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: auto ;
+}
+.changePassword{
+    box-shadow: 0 6px 15px 0 #0000001a;
+    padding: 10px 15px;
+
+}
+
+.changePassword h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.info {
+	color:#024;
+}
+/*.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+*/
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+
+
+/* media queries*/
+@media (max-width: 992px){
+	.social a{
+	font-size: 4rem;
+	padding: 1.5rem;
+
+}
+}
+@media(max-width: 768px){
+	.social a{
+	font-size: 3rem;
+	padding: 1.0rem;
+}
+
+}
+
+@media(max-width: 576px) {
+		.social a{
+	font-size: 2rem;
+	padding: 0.6rem;
+}
+}
